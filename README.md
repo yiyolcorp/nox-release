@@ -11,6 +11,11 @@ curl -fsSL https://github.com/yiyolcorp/nox-release/releases/latest/download/ins
   | sudo EDITION=free bash
 ```
 
+## 설치 (Local)
+```bash
+sudo LOCAL_DEB=/path/to/nox-nvr_26.04_amd64.deb bash ./install.sh
+```
+
 ## 요구사항
 
 - Ubuntu 24.04 (amd64)
