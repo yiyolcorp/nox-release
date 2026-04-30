@@ -1,6 +1,6 @@
 # NOX
 
-NOX NVR Free 에디션 배포 저장소. 각 릴리스에는 `install.sh` 와 `nox-nvr_*-free_amd64.deb` 가 포함됩니다.
+NOX는 Enterprise 급 NVR/VMS 시스템입니다. 무료 버전은 최대 4채널을 지원합니다.
 
 ## 설치
 
@@ -12,4 +12,3 @@ curl -fsSL https://github.com/yiyolcorp/nox-release/releases/latest/download/ins
 ## 요구사항
 
 - Ubuntu 24.04 (amd64)
-- `sudo` 권한
