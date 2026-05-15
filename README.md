@@ -29,4 +29,5 @@ curl -fsSL https://github.com/yiyolcorp/nox-release/releases/latest/download/ins
 
 
 ## 정보
-- https://nox.yiyol.com 에서 더 많은 자료를 찾을 수 있습니다.
+- 홈페이지 **https://nox.yiyol.com**
+- Youtube **https://www.youtube.com/@YiyolNox**
