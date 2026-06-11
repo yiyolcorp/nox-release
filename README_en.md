@@ -7,8 +7,20 @@ NOX is an Enterprise-grade NVR/VMS system. The free version supports up to 4 cha
 
 ## Installation
 
+### KIOSK Mode (NVR type)
+This setup is for systems with a directly connected monitor. It requires a GPU for decoding and display purposes. (Raspberry Pi is not recommended due to GPU limitations.)
+
 ```bash
-curl -fsSL https://github.com/yiyolcorp/nox-release/releases/latest/download/install.sh \
+curl -fsSL [https://github.com/yiyolcorp/nox-release/releases/latest/download/install.sh](https://github.com/yiyolcorp/nox-release/releases/latest/download/install.sh) \
+  | sudo KIOSK_ENABLED=1 bash
+
+```
+
+### Headless Mode (VMS type)
+This setup is for systems without a directly connected monitor. It does not require a GPU, except for video analytics features.
+
+```bash
+curl -fsSL [https://github.com/yiyolcorp/nox-release/releases/latest/download/install.sh](https://github.com/yiyolcorp/nox-release/releases/latest/download/install.sh) \
   | sudo bash
 ```
 
