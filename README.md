@@ -8,6 +8,15 @@ NOX는 Enterprise 급 NVR/VMS 시스템입니다. 무료 버전은 최대 4채�
 
 ## 설치
 
+### KIOSK 모드 (NVR형태)
+모니터가 직접 연결되는 시스템으로 디코딩 및 디스플레이용도로 GPU가 필요합니다.
+```bash
+curl -fsSL https://github.com/yiyolcorp/nox-release/releases/latest/download/install.sh \
+  | sudo KIOSK_ENABLED=1 bash
+```
+
+### Headless 모드 (VMS형태)
+모니터기 직접 연결되지 않는 시스템으로 분석기능 외에는 GPU를 필요로 하지 않습니다.
 ```bash
 curl -fsSL https://github.com/yiyolcorp/nox-release/releases/latest/download/install.sh \
   | sudo bash
