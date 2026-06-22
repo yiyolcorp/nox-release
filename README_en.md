@@ -4,6 +4,8 @@ NOX is an Enterprise-grade NVR/VMS system. The free version supports up to 4 cha
 ## Requirements
 * Ubuntu 24.04 (amd64) or Raspberry Pi 4B/5 (arm64, Debian 13 Trixie)
 * RAM 8GiB or higher
+* System Storage 8GB or higher (Exclude OS/DB)
+
 
 ## Installation
 
